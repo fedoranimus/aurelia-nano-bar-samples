@@ -1,0 +1,16 @@
+<template>
+    Aurelia Nano Bar
+    <nano-bar is-loading.bind="isLoading" progress.bind="progress"></nano-bar>
+    <button click.delegate="start()">
+        Start
+    </button>
+    <button click.delegate="stop()">
+        Complete
+    </button>
+    <button click.delegate="setProgress()">
+        Set Progress to 40%
+    </button>
+    <button click.delegate="clearProgress()">
+        Clear Progress
+    </button>
+</template>
