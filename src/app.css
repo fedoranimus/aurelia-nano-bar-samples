@@ -17,7 +17,6 @@ button {
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    padding: 3px 6px;
     font-size: 16px;
     border-radius: 4px;
 }
@@ -42,6 +41,7 @@ article {
 }
 
 article.main-controls {
+    max-width: 40%;
     display: flex;
     justify-content: space-between;
 }
@@ -51,7 +51,16 @@ article.element-bar {
     height: 200px;
     box-shadow: 0 8px 12px rgba(60,90,120,.1);
     border-radius: 4px;
-    overflow: hidden;
+}
+
+.child-content {
+    padding: .25em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #999;
+    height: 100%;
+    text-align: center;
 }
 
 footer {
